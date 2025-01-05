@@ -1,0 +1,3 @@
+- #arrival_time
+- With the field #stop_id we will enrich the data with the catalog cat_stops
+-

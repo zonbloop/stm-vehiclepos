@@ -1,0 +1,5 @@
+- There are 3 main catalogs that we will be interested to track the information of the endpoint VehiclePositions, those are cat_routes, cat_stop_times, cat_stops
+- Using the fields #currentStopSequence and #trip.tripId we will get the field arrival_time with the catalog cat_stop_times, then calculate the KPI delay of each vehicle to detect any anomaly by substracting the arrival_time minus the #timestamp of the data for those fields in which #currentStatus is equal to STOPPED_AT
+- Then we also enrich the data with the field #trip.routeId with the catalog cat_routes and get the field route_long_name
+-
+-
